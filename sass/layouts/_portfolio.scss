@@ -50,15 +50,15 @@
     line-height: 1.55;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    background-color: rgba(33, 150, 243, 0.9);;
+    background-color: rgba(33, 150, 243, 0.9);
+    .pic-link:hover &,
+    .pic-link:focus &{
+    transform: translateX(0);
+    }
 }
 .pic-div{
     position: relative;
     overflow: hidden;
-}
-.pic-link:hover .desc-pic,
-.pic-link:focus .desc-pic{
-    transform: translateX(0);
 }
 .pic-img{
     display: block;

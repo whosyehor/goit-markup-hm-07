@@ -17,9 +17,6 @@
 .header__span{
     color:#000000;
 }
-.menu__link--current{
-    color: #212121;
-}
 .header__navigation{
     margin-left: 93px;
 }
@@ -29,23 +26,17 @@
 }
 .menu__item{
     margin-right: 50px;
-}
-.menu__link{
-    display: block;
-    padding-top: 21px;
-    padding-bottom: 21px;
-}
-.menu__item:last-child{
+    &:last-child{
     margin-right: 0;
+    }
 }
 .menu__link--current{
+    color: #212121;
     text-decoration: none;
     &:hover, 
     &:focus{
     color: #2196F3;
     }
-}
-.menu__link--current{
     position: relative;
     display: block;
     padding-top: 32px;
