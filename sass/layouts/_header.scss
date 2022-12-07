@@ -1,0 +1,144 @@
+/* ------------------------- Page Header ------------------------- */
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
+.logo--header{
+    display: block;
+}
+.logo--header{
+    color:#2196F3;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.logo-header{
+    color:#000000;
+}
+.menu--link .current{
+    color: #212121;
+}
+.header--navigation{
+    margin-left: 93px;
+}
+.menu{
+    display: flex;
+    padding-left: 0;
+}
+.menu .menu--item{
+    margin-right: 50px;
+}
+.menu .menu--link{
+    display: block;
+    padding-top: 21px;
+    padding-bottom: 21px;
+}
+.menu .menu--item:last-child{
+    margin-right: 0;
+}
+.menu--link .current{
+    text-decoration: none;
+    &:hover, 
+    &:focus{
+    color: #2196F3;
+    }
+}
+.menu--link .current{
+    position: relative;
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+.menu--link .current::after{
+    position: absolute;
+    bottom: -3px;
+    right: 0;
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: #2196F3;
+    border-radius: 2px;
+}
+.menu--link{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    color: #2196F3;
+    }
+}
+/* ----------------------------- Auth-nav ------------------------ */
+.contacts{
+    margin: 0;
+    display: flex;
+    margin-left: auto;
+}
+.contacts .item + .item{
+    margin-left: 50px;
+}
+.contacts--mail{
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color:#757575;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3333;
+    letter-spacing: 0.02em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    color: #2196F3;
+    }
+}
+.icon-mail{
+    margin-right: 10px;
+    fill: currentColor;
+    &:hover{
+    color: #2196F3;
+    }
+}
+.contacts--phone{
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+    color: #757575;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus{
+    color: #2196F3;
+    }
+}
+.icon-phone{
+    align-items: center;
+    margin-right: 10px;
+    fill: currentColor;
+    &:hover{
+    color: #2196F3;
+    }
+}
