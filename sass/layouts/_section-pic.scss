@@ -1,12 +1,12 @@
 /*----------------------------- Section pic ---------------------- */
-.section-title .pic{
+.section-title .activity{
     margin-top: 0;
     margin-bottom: 0;
 }
-.thumb{
+.offer{
     position: relative;
 }
-.text-h3{
+.offer__title{
     position: absolute;
     bottom: 0%;
     width: 100%;
@@ -22,10 +22,10 @@
     color: #FFFFFF;
     background-color: rgba(47, 48, 58, 0.8);
 }
-.img{
+.offer__image{
     display: block;
 }
-.section-pic{
+.options{
     margin-top: 0;
     display: flex;
     gap: 30px;

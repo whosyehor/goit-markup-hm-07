@@ -1,7 +1,7 @@
 .footer-input{
     margin-left: 93px;
 }
-.footer-p{
+.footer-input__title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.1428;
@@ -10,11 +10,11 @@
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.div-form{
+.form{
     display: flex;
     gap: 12px;
 }
-.footer-input-email{
+.form__input{
     width: 358px;
     background-color:#2F303A;
     color: rgba(255, 255, 255, 0.6);
@@ -45,6 +45,6 @@
     display: flex;
     gap: 10px;
 }
-.footer-button-icon{
+.footer-button__icon{
     fill: #FFFFFF;
 }

@@ -1,14 +1,14 @@
 /* ------------------------- Постійні клієнти --------------------- */
-.company-logo-list{
+.company{
     display: flex;
     justify-content: center;
     gap: 30px;
 }
-.company-logo-item{
+.company__icon{
     width: 170px;
     height: 92px;
 }
-.company-link{
+.company__link{
     width: 100%;
     height: 100%;
     background-color: #FFFFFF;
@@ -25,6 +25,6 @@
     color: #2196F3;
     }
 }
-.company-logo{
+.company__logo{
     fill: currentColor;
 }
