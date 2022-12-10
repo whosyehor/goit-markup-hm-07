@@ -1,5 +1,6 @@
 .footer-input{
     margin-left: 93px;
+    display: block;
 }
 .footer-input__title{
     font-weight: 700;
@@ -11,7 +12,7 @@
     margin-bottom: 20px;
 }
 .form{
-    display: flex;
+    display: block;
     gap: 12px;
 }
 .form__input{
